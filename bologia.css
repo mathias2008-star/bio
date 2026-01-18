@@ -1,0 +1,85 @@
+
+body {
+    background-image: url(f2.jpg); 
+    font-family:Cooper Black;
+    background-color: #145d7a;
+    color: rgb(8, 3, 29);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+     font-family:Cooper Black;
+    text-align: center;
+    color: #0c6454;
+    font-size: 4em;
+    margin-top: 50px;
+}
+
+.contenedor {
+    background-color: aquamarine; 
+    font-family:Cooper Black;
+    font-size: 20px;
+    max-width: 1000px;
+    padding: 50px;
+    border-radius: 12px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family:Cooper Black;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px #0565c5a6;
+}
+
+.menu li a {
+     font-family:Cooper Black;
+    color: #14a08b;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-bottom: 3px solid #bf0be3c9;
+}
+
+.menu li a:hover {
+    background-color: #1fffd259;
+}
+
+.descripcion {
+
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family:Cooper Black;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.imagen-descripcion {
+    font-family:Cooper Black;
+    margin-top: 40px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(83, 10, 10, 0.4);
+   
+}
